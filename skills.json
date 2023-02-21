@@ -1,29 +1,24 @@
-
-1. 'Базовая теория SDLC, STLC'
-2. 'Что такое клиент-серверная архитектура'
-3. 'HTTP Методы запросов на сервер'
-4. 'Коды ответов HTTP сервера'
-5. 'Структуры HTTP запросов и ответов'
-6. 'JSON, XML. Их структура'
-7. 'Тестирование API через Postman (JS, автотесты API)'
-8. 'Снятие и чтение логов c внешнего сервера'
-9. 'Снифинг http web трафика через Charles и Fiddler'
-10. 'Dev Tools веб браузеров (Google Chrome, FireFox)'
-11. 'VPN'
-12. 'Мобильное тестирование'
-13. 'Особенность iOS, Android, гайдлайны'
-14. 'Сборка iOS приложений на XCode'
-15. 'Сборка Android приложений на Android Studio'
-16. 'ADB'
-17. 'Настройка прокси и vpn на iOS и Android'
-18. 'Charles и Fiddler на iOS и Android'
-19. 'Terminal Linux'
-20. 'Основы bash скриптинг, автоматизация рутинных задач на сервере'
-21. 'Доступ к удалённым серверам'
-22. 'SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)'
-23. 'Postgres'
-24. 'Redis'
-25. 'Jmeter'
-26. 'Scrum'
-27. 'Python'
-
+{
+    "skills": ["Базовая теория SDLC, STLC"
+               "HTTP"
+               "JSON, XML" 
+               "Тестирование API через Postman (JS, автотесты API)" 
+               "Снятие и чтение логов c внешнего сервера" 
+               "Снифинг http web трафика через Charles и Fiddler" 
+               "Dev Tools веб браузеров (Google Chrome, FireFox)" 
+               "VPN" 
+               "Мобильное тестирование" 
+               "Особенность iOS, Android, гайдлайны" 
+               "Сборка iOS приложений на XCode" 
+               "Сборка Android приложений на Android Studio" 
+               "ADB" 
+               "Настройка прокси и vpn на iOS и Android" 
+               "Charles и Fiddler на iOS и Android" 
+               "Terminal Linux" 
+               "SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)" 
+               "Postgres" 
+               "Redis" 
+               "Jmeter" 
+               "Scrum" 
+               "Python"]
+   }
