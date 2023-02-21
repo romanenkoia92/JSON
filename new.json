@@ -1,6 +1,7 @@
-        'name' 'Ivanna'
-	'surname' 'Romanenko'
-	'age' '30'
-	'number of pets' '3'
-	'future desired salary' '1000
-	
+{
+    'name' : 'Ivanna'
+    'surename' : 'Romanenko'
+    'age' : '30'
+    'number of pets' : '3'
+    'future desired salary' : '1000'  
+   }
