@@ -1,14 +1,11 @@
-
-{ 'Summary:'
-'Envirouments'
-'Severity'
-'Priority:'
-'Preconditions:'
-'Steps to reproduce:'
- '1.'
- '2.'
- '3.'
-'Actual result'
-'Expected result'
-'Attachment'}
-
+{
+    "Bug_id": 1,
+    "Title": "Tab [ETFs] on the right side is non-clickable",
+    "Severity": "minor",
+    "Priority": "low",
+    "Environment": [ "macOS Monterey v 12.6.2"],
+    "Steps to reproduce": "1. Navigate to capital.com
+                           2. Scroll to Widget “Trading instrument” "
+    "AR": "Tab [ETFs] on the right side is non-clickable",
+    "ER": "Tab [ETFs] is fully clickable"
+}
