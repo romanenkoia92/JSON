@@ -1,0 +1,106 @@
+# JSON
+
+1. Создать внешний репозиторий c названием JSON.
+ - https://github.com/romanenkoia92/JSON
+ - Заходим в свой профиль на GitHub.
+ - Нажимаем "Repositories"
+ - Далее кнопка "New"
+ - Пишем название репозитория "JSON", ставим галочку напротив поля "Add a README file", нажимаем на кнопку "Create repository"
+ 
+2. Клонировать репозиторий JSON на локальный компьютер.
+ - Заходим в созданный репозиторий JSON
+ -  Нажимаем на кнопку "Code"
+ - Копируем ссылку 
+ - Заходим в Git Bash
+ - Пишем команду git clone https://github.com/romanenkoia92/JSON.git 
+ 
+3. Внутри локального JSON создать файл “new.json”.
+ - cd JSON - заходим в папку JSON
+ - touch new.json или cat > new.json - создаем файл
+ 
+4. Добавить файл под гит.
+ - git add new.json или git add .
+
+5. Закоммитить файл.
+ - git commit -аm "add new.json"
+
+6. Отправить файл на внешний GitHub репозиторий.
+ - git push
+ 
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ - vim new.json - открываем редактор файла
+ - i - начать редактирование
+ - {
+    'name' : 'Ivanna'
+    'surename' : 'Romanenko'
+    'age' : '30'
+    'number of pets' : '3'
+    'future desired salary' : '1000'  
+   }
+ - esc - выйти с режима редактирования
+ - :wq - сохраняем и выходим из редактора
+
+8. Отправить изменения на внешний репозиторий.
+ - git add new.json или git add . - добавляем файл под гит 
+ - git commit -am "add personal info to the new.json" - закоммитили изменения
+ - git push - отправляем на внешний репозиторий
+
+9. Создать файл preferences.json
+ - touch preferences.json или cat > preferences.json
+ 
+10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+ - vim preferences.json - открываем редактор файла
+ - i - начать редактирование
+ - {
+    'favorite film' : 'sweet november'
+    'favorite series' : 'game of thrones’
+    'favorite food' : 'salad'
+    'favorite season of the year' : 'summer'
+    'country' : 'there are many of them'    
+   }
+ - esc - выйти с режима редактирования
+ - :wq - сохраняем и выходим из редактора
+ 
+11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ - touch sklls.json
+ - vim sklls.json - открываем редактор файла
+ - i - начать редактирование
+ - {
+    "skills": ['Базовая теория SDLC, STLC', 'HTTP', 'JSON, XML', 'Тестирование API через Postman (JS, автотесты API)', 'Снятие и чтение логов c внешнего сервера', 'Снифинг http web трафика через Charles и Fiddler', 'Dev Tools веб браузеров (Google Chrome, FireFox)', 'VPN', 'Мобильное тестирование', 'Особенность iOS, Android, гайдлайны', 'Сборка iOS приложений на XCode', 'Сборка Android приложений на Android Studio', 'ADB', 'Настройка прокси и vpn на iOS и Android', 'Charles и Fiddler на iOS и Android', 'Terminal Linux', 'SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)', 'Postgres', 'Redis', 'Jmeter', 'Scrum', 'Python'
+   }
+ - esc - выйти с режима редактирования
+ - :wq - сохраняем и выходим из редактора
+ 
+12. Отправить сразу 2 файла на внешний репозиторий.
+ - git add . - добавлем все под гит
+ - git status - смотрим, отслеживает ли гит наши файлы
+ - git commit -m "add preferences and skills"
+ - git push - отправляем на внешний репозиторий
+ 
+13. На веб интерфейсе создать файл bug_report.json.
+ - В репозитории нажимаем кнопку "Add file" -> "Create new file"
+ - В поле "Name your file ..." пишем название bug_report.json
+
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ - Нажимаем на кнопку "Commit new file"
+
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ - {
+    "Bug_id": 1,
+    "Title": "Tab [ETFs] on the right side is non-clickable",
+    "Severity": "minor",
+    "Priority": "low",
+    "Environment": [ "macOS Monterey v 12.6.2"],
+    "Steps to reproduce": "1. Navigate to capital.com
+                           2. Scroll to Widget “Trading instrument” "
+    "AR": "Tab [ETFs] on the right side is non-clickable",
+    "ER": "Tab [ETFs] is fully clickable"
+   }
+   
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ - Нажимаем на кнопку "Commit changes"
+
+17. Синхронизировать внешний и локальный репозиторий JSON
+ - git fetch
+ - git pull
+ 
