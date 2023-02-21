@@ -9,7 +9,7 @@
  
 2. Клонировать репозиторий JSON на локальный компьютер.
  - Заходим в созданный репозиторий JSON
- -  Нажимаем на кнопку "Code"
+ - Нажимаем на кнопку "Code"
  - Копируем ссылку 
  - Заходим в Git Bash
  - Пишем команду git clone https://github.com/romanenkoia92/JSON.git 
@@ -31,11 +31,11 @@
  - vim new.json - открываем редактор файла
  - i - начать редактирование
  - {
-    'name' : 'Ivanna'
-    'surename' : 'Romanenko'
-    'age' : '30'
-    'number of pets' : '3'
-    'future desired salary' : '1000'  
+    "name" : "Ivanna"
+    "surename" : "Romanenko"
+    "age" : "30"
+    "number of pets" : "3"
+    "future desired salary" : "1000"  
    }
  - esc - выйти с режима редактирования
  - :wq - сохраняем и выходим из редактора
@@ -52,11 +52,11 @@
  - vim preferences.json - открываем редактор файла
  - i - начать редактирование
  - {
-    'favorite film' : 'sweet november'
-    'favorite series' : 'game of thrones’
-    'favorite food' : 'salad'
-    'favorite season of the year' : 'summer'
-    'country' : 'there are many of them'    
+    "favorite film" : "sweet november"
+    "favorite series" : "game of thrones"
+    "favorite food" : "salad"
+    "favorite season of the year" : "summer"
+    "country" : "there are many of them"    
    }
  - esc - выйти с режима редактирования
  - :wq - сохраняем и выходим из редактора
@@ -66,7 +66,28 @@
  - vim sklls.json - открываем редактор файла
  - i - начать редактирование
  - {
-    "skills": ['Базовая теория SDLC, STLC', 'HTTP', 'JSON, XML', 'Тестирование API через Postman (JS, автотесты API)', 'Снятие и чтение логов c внешнего сервера', 'Снифинг http web трафика через Charles и Fiddler', 'Dev Tools веб браузеров (Google Chrome, FireFox)', 'VPN', 'Мобильное тестирование', 'Особенность iOS, Android, гайдлайны', 'Сборка iOS приложений на XCode', 'Сборка Android приложений на Android Studio', 'ADB', 'Настройка прокси и vpn на iOS и Android', 'Charles и Fiddler на iOS и Android', 'Terminal Linux', 'SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)', 'Postgres', 'Redis', 'Jmeter', 'Scrum', 'Python'
+    "skills": ["Базовая теория SDLC, STLC"
+               "HTTP"
+               "JSON, XML" 
+               "Тестирование API через Postman (JS, автотесты API)" 
+               "Снятие и чтение логов c внешнего сервера" 
+               "Снифинг http web трафика через Charles и Fiddler" 
+               "Dev Tools веб браузеров (Google Chrome, FireFox)" 
+               "VPN" 
+               "Мобильное тестирование" 
+               "Особенность iOS, Android, гайдлайны" 
+               "Сборка iOS приложений на XCode" 
+               "Сборка Android приложений на Android Studio" 
+               "ADB" 
+               "Настройка прокси и vpn на iOS и Android" 
+               "Charles и Fiddler на iOS и Android" 
+               "Terminal Linux" 
+               "SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)" 
+               "Postgres" 
+               "Redis" 
+               "Jmeter" 
+               "Scrum" 
+               "Python"]
    }
  - esc - выйти с режима редактирования
  - :wq - сохраняем и выходим из редактора
@@ -91,11 +112,11 @@
     "Severity": "minor",
     "Priority": "low",
     "Environment": [ "macOS Monterey v 12.6.2"],
-    "Steps to reproduce": "1. Navigate to capital.com
-                           2. Scroll to Widget “Trading instrument” "
+    "Steps to reproduce": ["1. Navigate to capital.com"
+                           "2. Scroll to Widget “Trading instrument” "]
     "AR": "Tab [ETFs] on the right side is non-clickable",
     "ER": "Tab [ETFs] is fully clickable"
-   }
+}
    
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  - Нажимаем на кнопку "Commit changes"
